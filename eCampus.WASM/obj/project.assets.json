@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Microsoft.AspNetCore.Authorization/5.0.12": {
         "type": "package",
         "dependencies": {
@@ -339,7 +339,7 @@
         }
       }
     },
-    "net5.0/browser-wasm": {
+    "net6.0/browser-wasm": {
       "Microsoft.AspNetCore.Authorization/5.0.12": {
         "type": "package",
         "dependencies": {
@@ -1237,7 +1237,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.12",
       "Microsoft.AspNetCore.Components.WebAssembly.Authentication >= 5.0.12",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.12",
@@ -1260,14 +1260,14 @@
         "/home/mathews/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -1278,8 +1278,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
@@ -1311,8 +1311,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.12, 5.0.12]"
+            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+            "version": "[6.0.0, 6.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -1320,7 +1320,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

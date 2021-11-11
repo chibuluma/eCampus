@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "E843nJHglkIU4rExePCT3cgL0KymWKmiCpJlQDcncEc=",
+  "Source": "eCampus.WEBAPI",
+  "BasePath": "_content/eCampus.WEBAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
