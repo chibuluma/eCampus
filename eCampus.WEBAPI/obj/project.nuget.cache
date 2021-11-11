@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "3ZtQtKauUY3CLnvc/a55rAjZ2NeWlGcPVHG/F4EL6TUJhs3NbmIK61Osf6vnVLdsmDV6IKfcHQSmWqpRIR1iKg==",
+  "success": true,
+  "projectFilePath": "/home/mathews/Documents/GitHub/eCampus/eCampus.WEBAPI/eCampus.WEBAPI.csproj",
+  "expectedPackageFiles": [
+    "/home/mathews/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/mathews/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/mathews/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/mathews/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/mathews/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/mathews/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
