@@ -8,6 +8,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1666406946,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.App",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.App"
+        }
+      },
+      {
+        "HashCode": 764723939,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.App",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "eCampus.WASM.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 424390718,
         "Kind": "Components.Component",
         "Name": "eCampus.WASM.Pages.Authentication",
@@ -160,6 +193,125 @@
         }
       },
       {
+        "HashCode": -2067385336,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.Shared.LoginDisplay",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.Shared.LoginDisplay"
+        }
+      },
+      {
+        "HashCode": -1099896479,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.Shared.LoginDisplay",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "eCampus.WASM.Shared.LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.Shared.LoginDisplay",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -902389718,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.Shared.RedirectToLogin",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "RedirectToLogin"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.Shared.RedirectToLogin"
+        }
+      },
+      {
+        "HashCode": 649398641,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.Shared.RedirectToLogin",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "eCampus.WASM.Shared.RedirectToLogin"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.Shared.RedirectToLogin",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -458473543,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.Shared.SurveyPrompt",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 424038409,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.Shared.SurveyPrompt",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "eCampus.WASM.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1594032029,
         "Kind": "Components.Component",
         "Name": "eCampus.WASM.Shared.MainLayout",
@@ -256,39 +408,6 @@
         }
       },
       {
-        "HashCode": -902389718,
-        "Kind": "Components.Component",
-        "Name": "eCampus.WASM.Shared.RedirectToLogin",
-        "AssemblyName": "eCampus.WASM",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "RedirectToLogin"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "eCampus.WASM.Shared.RedirectToLogin"
-        }
-      },
-      {
-        "HashCode": 649398641,
-        "Kind": "Components.Component",
-        "Name": "eCampus.WASM.Shared.RedirectToLogin",
-        "AssemblyName": "eCampus.WASM",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "eCampus.WASM.Shared.RedirectToLogin"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "eCampus.WASM.Shared.RedirectToLogin",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -928421769,
         "Kind": "Components.Component",
         "Name": "eCampus.WASM.Shared.NavMenu",
@@ -318,125 +437,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "eCampus.WASM.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -458473543,
-        "Kind": "Components.Component",
-        "Name": "eCampus.WASM.Shared.SurveyPrompt",
-        "AssemblyName": "eCampus.WASM",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "eCampus.WASM.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 424038409,
-        "Kind": "Components.Component",
-        "Name": "eCampus.WASM.Shared.SurveyPrompt",
-        "AssemblyName": "eCampus.WASM",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "eCampus.WASM.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "eCampus.WASM.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -2067385336,
-        "Kind": "Components.Component",
-        "Name": "eCampus.WASM.Shared.LoginDisplay",
-        "AssemblyName": "eCampus.WASM",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "LoginDisplay"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "eCampus.WASM.Shared.LoginDisplay"
-        }
-      },
-      {
-        "HashCode": -1099896479,
-        "Kind": "Components.Component",
-        "Name": "eCampus.WASM.Shared.LoginDisplay",
-        "AssemblyName": "eCampus.WASM",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "eCampus.WASM.Shared.LoginDisplay"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "eCampus.WASM.Shared.LoginDisplay",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1666406946,
-        "Kind": "Components.Component",
-        "Name": "eCampus.WASM.App",
-        "AssemblyName": "eCampus.WASM",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "eCampus.WASM.App"
-        }
-      },
-      {
-        "HashCode": 764723939,
-        "Kind": "Components.Component",
-        "Name": "eCampus.WASM.App",
-        "AssemblyName": "eCampus.WASM",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "eCampus.WASM.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "eCampus.WASM.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
