@@ -681,6 +681,16 @@
             "rid": "win"
           }
         }
+      },
+      "eCampus.COMMON/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/eCampus.COMMON.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eCampus.COMMON.dll": {}
+        }
       }
     }
   },
@@ -1967,13 +1977,19 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "eCampus.COMMON/1.0.0": {
+      "type": "project",
+      "path": "../eCampus.COMMON/eCampus.COMMON.csproj",
+      "msbuildProject": "../eCampus.COMMON/eCampus.COMMON.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
-      "Microsoft.Entityframeworkcore.sqlserver >= 6.0.0"
+      "Microsoft.Entityframeworkcore.sqlserver >= 6.0.0",
+      "eCampus.COMMON >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2000,7 +2016,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
+              "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

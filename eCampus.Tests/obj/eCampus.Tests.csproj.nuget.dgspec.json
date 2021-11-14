@@ -4,14 +4,14 @@
     "/home/mathews/Documents/GitHub/eCampus/eCampus.Tests/eCampus.Tests.csproj": {}
   },
   "projects": {
-    "/home/mathews/Documents/GitHub/eCampus/eCampus.Tests/eCampus.Tests.csproj": {
+    "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mathews/Documents/GitHub/eCampus/eCampus.Tests/eCampus.Tests.csproj",
-        "projectName": "eCampus.Tests",
-        "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.Tests/eCampus.Tests.csproj",
+        "projectUniqueName": "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
+        "projectName": "eCampus.COMMON",
+        "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
         "packagesPath": "/home/mathews/.nuget/packages/",
-        "outputPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.Tests/obj/",
+        "outputPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mathews/.nuget/NuGet/NuGet.Config"
@@ -37,10 +37,142 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/eCampus.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/eCampus.DAL.csproj",
+        "projectName": "eCampus.DAL",
+        "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/eCampus.DAL.csproj",
+        "packagesPath": "/home/mathews/.nuget/packages/",
+        "outputPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mathews/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
+                "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mathews/Documents/GitHub/eCampus/eCampus.Tests/eCampus.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mathews/Documents/GitHub/eCampus/eCampus.Tests/eCampus.Tests.csproj",
+        "projectName": "eCampus.Tests",
+        "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.Tests/eCampus.Tests.csproj",
+        "packagesPath": "/home/mathews/.nuget/packages/",
+        "outputPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mathews/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/eCampus.DAL.csproj": {
+                "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/eCampus.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
             },
             "NUnit": {
               "target": "Package",
