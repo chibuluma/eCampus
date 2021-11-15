@@ -1,0 +1,17 @@
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.DAL.deps.json
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.DAL.runtimeconfig.json
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.DAL.dll
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/bin/Debug/net6.0/ref/eCampus.DAL.dll
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.DAL.pdb
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.COMMON.dll
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.COMMON.pdb
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.csproj.AssemblyReference.cache
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.AssemblyInfoInputs.cache
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.AssemblyInfo.cs
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.csproj.CoreCompileInputs.cache
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.csproj.CopyComplete
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.dll
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/Debug/net6.0/ref/eCampus.DAL.dll
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.pdb
+/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.genruntimeconfig.cache

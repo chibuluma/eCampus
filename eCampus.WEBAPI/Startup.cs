@@ -1,15 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using eCampus.COMMON;
+using eCampus.DAL.Interfaces;
+using eCampus.DAL.Models;
+using eCampus.DAL.Repositories;
+using eCampus.DAL.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 namespace eCampus.WEBAPI
@@ -26,8 +25,13 @@ namespace eCampus.WEBAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddDbContext<eCampusContext>(opt=> 
+                    opt.UseSqlServer(Configuration.GetConnectionString("eCampusDatabase")));
             services.AddControllers();
+            services.AddScoped<IeCampusContext, eCampusContext>();
+            services.AddScoped<IOperationResult, OperationResult>();
+            services.AddScoped<ISchoolRepository, SchoolRepository>();
+            services.AddScoped<SchoolService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "eCampus.WEBAPI", Version = "v1" });
