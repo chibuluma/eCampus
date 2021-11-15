@@ -2,7 +2,14 @@ using System;
 
 namespace eCampus.COMMON
 {
-    public class OperationResult
+    public interface IOperationResult
+    {
+        bool Success { get; set; }
+
+        void AddMessage(string message);
+    }
+
+    public class OperationResult : IOperationResult
     {
         public bool Success { get; set; }
         private IList<string> Messages { get; set; }
@@ -11,7 +18,8 @@ namespace eCampus.COMMON
             Messages = new List<string>(); // create object instance
         }
 
-        public void AddMessage(string message){
+        public void AddMessage(string message)
+        {
             Messages.Add(message); // add message to internal repo
         }
     }

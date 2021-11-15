@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using eCampus.DAL.Interfaces;
 
 namespace eCampus.DAL.Models
 {
-    public partial class eCampusContext : IdentityDbContext
+    public partial class eCampusContext : IdentityDbContext, IeCampusContext
     {
         public eCampusContext()
         {

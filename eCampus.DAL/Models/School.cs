@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace eCampus.DAL.Models
 {
-    public partial class School
+    public class School
     {
         public School()
         {

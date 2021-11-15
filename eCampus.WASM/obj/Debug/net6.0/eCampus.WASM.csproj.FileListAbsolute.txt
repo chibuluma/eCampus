@@ -605,7 +605,6 @@
 /home/mathews/Documents/GitHub/eCampus/eCampus.WASM/bin/Debug/net6.0/icudt_CJK.dat
 /home/mathews/Documents/GitHub/eCampus/eCampus.WASM/bin/Debug/net6.0/icudt_EFIGS.dat
 /home/mathews/Documents/GitHub/eCampus/eCampus.WASM/bin/Debug/net6.0/icudt_no_CJK.dat
-/home/mathews/Documents/GitHub/eCampus/eCampus.WASM/obj/Debug/net6.0/eCampus.WASM.csproj.AssemblyReference.cache
 /home/mathews/Documents/GitHub/eCampus/eCampus.WASM/obj/Debug/net6.0/eCampus.WASM.GeneratedMSBuildEditorConfig.editorconfig
 /home/mathews/Documents/GitHub/eCampus/eCampus.WASM/obj/Debug/net6.0/eCampus.WASM.AssemblyInfoInputs.cache
 /home/mathews/Documents/GitHub/eCampus/eCampus.WASM/obj/Debug/net6.0/eCampus.WASM.AssemblyInfo.cs
@@ -825,3 +824,4 @@
 /home/mathews/Documents/GitHub/eCampus/eCampus.WASM/obj/Debug/net6.0/eCampus.WASM.dll
 /home/mathews/Documents/GitHub/eCampus/eCampus.WASM/obj/Debug/net6.0/ref/eCampus.WASM.dll
 /home/mathews/Documents/GitHub/eCampus/eCampus.WASM/obj/Debug/net6.0/eCampus.WASM.pdb
+/home/mathews/Documents/GitHub/eCampus/eCampus.WASM/obj/Debug/net6.0/eCampus.WASM.csproj.AssemblyReference.cache

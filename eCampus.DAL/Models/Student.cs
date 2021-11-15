@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace eCampus.DAL.Models
 {
-    public partial class Student
+    public class Student 
     {
         public string StudentId { get; set; }
         public string Firstname { get; set; }

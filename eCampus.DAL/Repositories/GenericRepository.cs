@@ -6,24 +6,25 @@ using eCampus.DAL.Models;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace eCampus.DAL.Repositories
 {
-    public class GenericRepository<T> where T : class, IGenericRepository<T, Func<T, bool>>
+    public class GenericRepository<T> : IGenericRepository<T, Expression<Func<T, bool>>> where T : class
     {
-        private readonly eCampusContext _context;
-        private readonly OperationResult _logResult;
-        public GenericRepository(eCampusContext context, OperationResult logResult)
+        private readonly IeCampusContext _context;
+        private readonly IOperationResult _logResult;
+        public GenericRepository(IeCampusContext context, IOperationResult logResult)
         {
             _context = context;
             _logResult = logResult;
         }
-        public OperationResult Add(T t)
+        public IOperationResult Add(T t) 
         {
             try
             {
                 _context.Add(t);
-                _context.SaveChanges();
+                 _context.SaveChanges();
                 _logResult.AddMessage($"{t.GetType()} persisted successfully!!");
                 _logResult.Success = true;
                 return _logResult;
@@ -35,7 +36,7 @@ namespace eCampus.DAL.Repositories
             }
         }
 
-        public async Task<IList<T>> GetAllObjects()
+        public async Task<IList<T>>  GetAllObjects()
         {
             try
             {
@@ -47,12 +48,15 @@ namespace eCampus.DAL.Repositories
             }
         }
 
-        public T GetObjectById(Func<T, bool> condition)
+        public Task<T> GetObjectById(Expression<Func<T, bool>> condition)
         {
             try
             {
+                var result= _context.Set<T>()
+                    .Where(condition).FirstOrDefaultAsync();
+
                  return _context.Set<T>()
-                 .Where(condition).FirstOrDefault();
+                    .Where(condition).FirstOrDefaultAsync();
             }
             catch (System.Exception)
             {              
@@ -60,13 +64,14 @@ namespace eCampus.DAL.Repositories
             }
         }
 
-        public OperationResult RemoveObjectById(Func<T, bool> condition)
+        public IOperationResult RemoveObjectById(Expression<Func<T, bool>> condition)
         {
             try
             {
                 var obj= _context.Set<T>()
                  .Where(condition).FirstOrDefault();
-                _context.Remove(obj);
+                 _context.Remove(obj);
+                
                 _context.SaveChanges();
                 _logResult.AddMessage($"{obj.GetType()} removed successfully!!");
                 _logResult.Success = true;
@@ -79,7 +84,7 @@ namespace eCampus.DAL.Repositories
             }
         }
 
-        public OperationResult Update(T t, Func<T, bool> condition)
+        public IOperationResult Update(T t, Expression<Func<T, bool>> condition)
         {
            try
            {
