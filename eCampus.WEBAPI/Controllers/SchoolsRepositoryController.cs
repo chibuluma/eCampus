@@ -4,6 +4,7 @@ using eCampus.COMMON;
 using eCampus.DAL.Models;
 using eCampus.DAL.Repositories;
 using eCampus.DAL.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace eCampus.WEBAPI.Controllers
@@ -27,6 +28,7 @@ namespace eCampus.WEBAPI.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public Task<IOperationResult> PostSchoolItem(School school){
             var result = _schoolService.Add(school);
             return Task.FromResult(result);

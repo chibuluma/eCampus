@@ -61,3 +61,4 @@
 /home/mathews/Documents/GitHub/eCampus/eCampus.WEBAPI/obj/Debug/net6.0/ref/eCampus.WEBAPI.dll
 /home/mathews/Documents/GitHub/eCampus/eCampus.WEBAPI/obj/Debug/net6.0/eCampus.WEBAPI.pdb
 /home/mathews/Documents/GitHub/eCampus/eCampus.WEBAPI/obj/Debug/net6.0/eCampus.WEBAPI.genruntimeconfig.cache
+/home/mathews/Documents/GitHub/eCampus/eCampus.WEBAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
