@@ -8,6 +8,6 @@ namespace eCampus.DAL.Interfaces
     public interface ISchoolRepository
     {
         Task<IList<School>> GetAllObjects();
-        Task<School> GetObjectById(Func<School, bool> condition);
+        Task<School> GetObjectById(string condition);
     }
 }

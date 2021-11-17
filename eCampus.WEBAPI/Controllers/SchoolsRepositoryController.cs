@@ -19,7 +19,7 @@ namespace eCampus.WEBAPI.Controllers
             _schoolService = schoolService;
         }
 
-        [HttpGet("schools")]
+        [HttpGet("get_all_schools")]
         public async Task<IActionResult> GetAllAsync()
         {
             var allSchools = await _schoolService.GetAllObjects();
@@ -27,7 +27,23 @@ namespace eCampus.WEBAPI.Controllers
             return Ok(allSchools);
         }
 
-        [HttpPost]
+        [HttpGet("get_school_by_id")]
+        public async Task<IActionResult> GetByIdAsync(string id)
+        {
+            var filtered_school = await _schoolService.GetObjectById( i => i.SchoolId == id);
+
+            return Ok(filtered_school);
+        }
+
+        [HttpGet("remove_school_by_id")]
+        public IActionResult RemoveByIdAsync(string id)
+        {
+            var filtered_school =  _schoolService.RemoveObjectById( i => i.SchoolId == id);
+
+            return Ok(filtered_school);
+        }
+        
+        [HttpPost("post_school")]
         [Authorize]
         public Task<IOperationResult> PostSchoolItem(School school){
             var result = _schoolService.Add(school);

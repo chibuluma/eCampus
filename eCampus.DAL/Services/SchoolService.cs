@@ -23,7 +23,7 @@ namespace eCampus.DAL.Services
         }
 
         public async Task<School> GetByIdAsync(string id){
-            return (await _schoolRepository.GetObjectById( s=>s.SchoolId == id));
+            return (await _schoolRepository.GetObjectById( id));
         }
 
     }

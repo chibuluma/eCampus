@@ -16,9 +16,10 @@ namespace eCampus.DAL.Repositories
         {
         }
 
-        public Task<School> GetObjectById(Func<School, bool> condition)
+        public Task<School> GetObjectById(string condition) 
         {
-            return Task.FromResult(_context.Schools.Where(condition).FirstOrDefault());
+            var school = _context.Schools.Where(s=>s.SchoolId == condition).FirstOrDefault();
+            return Task.FromResult(school);
         }
     }
 }

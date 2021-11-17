@@ -68,9 +68,6 @@ namespace eCampus.WEBAPI
                 options.Authority =  $"https://{Configuration["Auth0:Domain"]}/";
                 options.Audience =   Configuration["Auth0:Audience"];
             });
-
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

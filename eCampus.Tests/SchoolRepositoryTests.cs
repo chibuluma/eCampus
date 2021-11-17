@@ -35,13 +35,13 @@ namespace eCampus.Tests
             }; 
 
             //to be fixed 
-            _schoolRepoMock.Setup(s=>s.GetObjectById(s=>s.SchoolId==id))
+            _schoolRepoMock.Setup(s=>s.GetObjectById(id))
                 .ReturnsAsync(_school);
 
             // Act
             var school = await _sut.GetByIdAsync(id);
             // Assert
-            Assert.Equals(id, school.SchoolId);
+            Assert.AreEqual(id, school.SchoolId);
         }
     }
 }
