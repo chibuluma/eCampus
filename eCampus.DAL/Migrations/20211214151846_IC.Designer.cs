@@ -12,7 +12,7 @@ using eCampus.DAL.Models;
 namespace eCampus.DAL.Migrations
 {
     [DbContext(typeof(eCampusContext))]
-    [Migration("20211111212013_IC")]
+    [Migration("20211214151846_IC")]
     partial class IC
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

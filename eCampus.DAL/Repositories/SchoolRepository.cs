@@ -10,15 +10,9 @@ namespace eCampus.DAL.Repositories
 {
     public class SchoolRepository : GenericRepository<School>, ISchoolRepository
     {
-        private readonly IeCampusContext _context;
         public SchoolRepository(IeCampusContext context, IOperationResult logResult)
             : base(context, logResult)
         {
-        }
-
-        public Task<School> GetObjectById(Func<School, bool> condition)
-        {
-            return Task.FromResult(_context.Schools.Where(condition).FirstOrDefault());
         }
     }
 }

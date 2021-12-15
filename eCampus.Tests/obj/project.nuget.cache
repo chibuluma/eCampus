@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cB/rFJpZWvimnYOPQgmy2LS5KQs1V1GA44G1+ftXV0GoauY17cDwbKQ0zZwjvWljlRRT6cWqmh0eT+bzeO97bw==",
+  "dgSpecHash": "Sou8WfAeQxt81dgXy1sfHrWCYVy6azlBBTohHENonDNsVJlrL8Jao0e7SLoUgikuYuukbZO0LUrif7OXCnbrrQ==",
   "success": true,
-  "projectFilePath": "/home/mathews/Documents/GitHub/eCampus/eCampus.Tests/eCampus.Tests.csproj",
+  "projectFilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/eCampus.Tests.csproj",
   "expectedPackageFiles": [
     "/home/mathews/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
     "/home/mathews/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",

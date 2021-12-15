@@ -48,14 +48,11 @@ namespace eCampus.DAL.Repositories
             }
         }
 
-        public Task<T> GetObjectById(Expression<Func<T, bool>> condition)
+        public async Task<T> GetObjectById(Expression<Func<T, bool>> condition)
         {
             try
             {
-                var result= _context.Set<T>()
-                    .Where(condition).FirstOrDefaultAsync();
-
-                 return _context.Set<T>()
+                 return await _context.Set<T>()
                     .Where(condition).FirstOrDefaultAsync();
             }
             catch (System.Exception)
