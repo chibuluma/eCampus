@@ -1998,11 +1998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/eCampus.DAL.csproj",
+      "projectUniqueName": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/eCampus.DAL.csproj",
       "projectName": "eCampus.DAL",
-      "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/eCampus.DAL.csproj",
+      "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/eCampus.DAL.csproj",
       "packagesPath": "/home/mathews/.nuget/packages/",
-      "outputPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/obj/",
+      "outputPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mathews/.nuget/NuGet/NuGet.Config"
@@ -2017,8 +2017,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
-              "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj"
+            "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
+              "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj"
             }
           }
         }

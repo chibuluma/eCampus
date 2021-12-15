@@ -2187,11 +2187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mathews/Documents/GitHub/eCampus/eCampus.WEBAPI/eCampus.WEBAPI.csproj",
+      "projectUniqueName": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WEBAPI/eCampus.WEBAPI.csproj",
       "projectName": "eCampus.WEBAPI",
-      "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.WEBAPI/eCampus.WEBAPI.csproj",
+      "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WEBAPI/eCampus.WEBAPI.csproj",
       "packagesPath": "/home/mathews/.nuget/packages/",
-      "outputPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.WEBAPI/obj/",
+      "outputPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WEBAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mathews/.nuget/NuGet/NuGet.Config"
@@ -2206,11 +2206,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
-              "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.COMMON/eCampus.COMMON.csproj"
+            "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
+              "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj"
             },
-            "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/eCampus.DAL.csproj": {
-              "projectPath": "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/eCampus.DAL.csproj"
+            "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/eCampus.DAL.csproj": {
+              "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/eCampus.DAL.csproj"
             }
           }
         }

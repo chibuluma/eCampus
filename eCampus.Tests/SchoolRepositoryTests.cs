@@ -23,6 +23,7 @@ namespace eCampus.Tests
         {
             _sut = new SchoolService(_schoolRepoMock.Object,_operationResultMock.Object);
         }
+        
         [Test]
         public async Task GetObjectByIdTest(){
             // Arrange

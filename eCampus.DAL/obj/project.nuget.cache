@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZH9gRjV0euN9grYIGPRgDCROM270dhyCXs8Qau2t+yxg/+uB6W9v6Im0cg+ge/BzLe5aNTRYNPhAoXqX3w7B1Q==",
+  "dgSpecHash": "VYBf+EqS4s7Qa+pyEIOqtIv39+3gE/GaiUjDrjY0zYgWYuGvAdx1WlZ+q3GzqZyXkyoyNR5IUICh7lXqLe6M8w==",
   "success": true,
-  "projectFilePath": "/home/mathews/Documents/GitHub/eCampus/eCampus.DAL/eCampus.DAL.csproj",
+  "projectFilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/eCampus.DAL.csproj",
   "expectedPackageFiles": [
     "/home/mathews/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/mathews/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.0/microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
