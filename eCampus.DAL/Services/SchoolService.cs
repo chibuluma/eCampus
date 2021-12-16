@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using eCampus.COMMON;
 using eCampus.DAL.Interfaces;
 using eCampus.DAL.Models;
-using eCampus.DAL.Repositories;
 
 namespace eCampus.DAL.Services
 {

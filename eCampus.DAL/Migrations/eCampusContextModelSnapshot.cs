@@ -103,6 +103,8 @@ namespace eCampus.DAL.Migrations
 
                     b.HasIndex("ProgrammeId");
 
+                    b.HasIndex("SchoolId");
+
                     b.ToTable("Departments");
                 });
 
@@ -607,6 +609,12 @@ namespace eCampus.DAL.Migrations
                         .HasForeignKey("ProgrammeId")
                         .HasConstraintName("Departments_FK");
 
+                    b.HasOne("eCampus.DAL.Models.School", null)
+                        .WithMany("Departments")
+                        .HasForeignKey("SchoolId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Programme");
                 });
 
@@ -822,6 +830,8 @@ namespace eCampus.DAL.Migrations
 
             modelBuilder.Entity("eCampus.DAL.Models.School", b =>
                 {
+                    b.Navigation("Departments");
+
                     b.Navigation("Lecturers");
                 });
 #pragma warning restore 612, 618

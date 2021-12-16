@@ -10,7 +10,7 @@ using System.Linq.Expressions;
 
 namespace eCampus.DAL.Repositories
 {
-    public class GenericRepository<T> : IGenericRepository<T, Expression<Func<T, bool>>> where T : class
+    public abstract class GenericRepository<T> : IGenericRepository<T, Expression<Func<T, bool>>> where T : class
     {
         private readonly IeCampusContext _context;
         private readonly IOperationResult _logResult;
@@ -19,7 +19,7 @@ namespace eCampus.DAL.Repositories
             _context = context;
             _logResult = logResult;
         }
-        public IOperationResult Add(T t) 
+        public virtual IOperationResult Add(T t) 
         {
             try
             {
@@ -36,7 +36,7 @@ namespace eCampus.DAL.Repositories
             }
         }
 
-        public async Task<IList<T>>  GetAllObjects()
+        public virtual async Task<IList<T>>  GetAllObjects()
         {
             try
             {

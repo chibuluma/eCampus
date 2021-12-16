@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace eCampus.DAL.Models
 {
@@ -8,6 +7,7 @@ namespace eCampus.DAL.Models
         public School()
         {
             Lecturers = new HashSet<Lecturer>();
+            Departments = new HashSet<Department>();
         }
 
         public string SchoolId { get; set; }
@@ -17,5 +17,6 @@ namespace eCampus.DAL.Models
 
         public virtual Institution Institution { get; set; }
         public virtual ICollection<Lecturer> Lecturers { get; set; }
+        public virtual ICollection<Department> Departments { get; set; }
     }
 }

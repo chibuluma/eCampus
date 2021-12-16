@@ -150,12 +150,12 @@
 /home/mathews/Documents/GitHub/eCampus/eCampus.Tests/obj/Debug/net6.0/eCampus.Tests.pdb
 /home/mathews/Documents/GitHub/eCampus/eCampus.Tests/obj/Debug/net6.0/eCampus.Tests.genruntimeconfig.cache
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/CoverletSourceRootsMapping
+/home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/NUnit3.TestAdapter.dll
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/NUnit3.TestAdapter.pdb
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/nunit.engine.dll
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/nunit.engine.api.dll
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/nunit.engine.core.dll
-/home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/eCampus.Tests.deps.json
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/eCampus.Tests.runtimeconfig.json
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/bin/Debug/net6.0/eCampus.Tests.dll

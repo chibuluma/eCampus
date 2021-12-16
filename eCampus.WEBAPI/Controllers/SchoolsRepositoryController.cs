@@ -46,8 +46,16 @@ namespace eCampus.WEBAPI.Controllers
         [HttpPost("post_school")]
         [Authorize]
         public Task<IOperationResult> PostSchoolItem(School school){
-            var result = _schoolService.Add(school);
-            return Task.FromResult(result);
+            try
+            {
+                var result = _schoolService.Add(school);
+                return Task.FromResult(result); 
+            }
+            catch (System.Exception)
+            {           
+                throw;
+            }
+
         }
     }
 }
