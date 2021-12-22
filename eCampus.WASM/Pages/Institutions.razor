@@ -28,10 +28,6 @@
         </MudCardActions>
     </MudCard>
     
-    <MudPaper Class="pa-4 justify-center my-4 mud-text-align-center">
-        <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="@(()=>form.Reset())" Class="mx-2">Reset</MudButton>
-    </MudPaper>
-
     <MudExpansionPanels>
         <MudExpansionPanel Text="@($"Show Errors ({errors.Length})")">
             @foreach (var error in errors)
