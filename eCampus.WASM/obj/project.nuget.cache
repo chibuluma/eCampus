@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2hpgklXVHQokjQ/R14Rtq7ohssNnQgVE4jCJLoo7/b2xlZ25Xcy8xIzBqdlm39KMXVmQPiZNQXmORuiVvbNPrQ==",
+  "dgSpecHash": "ONqEA0ZKmC6RplTVreWWage6wBjQaaED2C4gjj9cL4PwwMoVAx3r3x93JwDDJkJVw8rnh98gNOzYygjRjyK80w==",
   "success": true,
   "projectFilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
   "expectedPackageFiles": [
@@ -28,12 +28,13 @@
     "/home/mathews/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/home/mathews/.nuget/packages/microsoft.jsinterop/6.0.0/microsoft.jsinterop.6.0.0.nupkg.sha512",
     "/home/mathews/.nuget/packages/microsoft.jsinterop.webassembly/6.0.0/microsoft.jsinterop.webassembly.6.0.0.nupkg.sha512",
+    "/home/mathews/.nuget/packages/mudblazor/6.0.2/mudblazor.6.0.2.nupkg.sha512",
     "/home/mathews/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/home/mathews/.nuget/packages/system.io.pipelines/6.0.0/system.io.pipelines.6.0.0.nupkg.sha512",
     "/home/mathews/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/mathews/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/home/mathews/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
-    "/home/mathews/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.0/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.0.nupkg.sha512"
+    "/home/mathews/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.1/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.1.nupkg.sha512"
   ],
   "logs": []
 }

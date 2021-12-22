@@ -1,0 +1,98 @@
+@page "/Institutions"
+@inject HttpClient Http
+
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+
+
+    <MudCard>
+        <MudCardContent>
+            <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
+                <MudTextField T="string" Label="Institution" Required="true" RequiredError="Institution name is required!"/>
+            
+            <MudAutocomplete T="string" Label="Countries" @bind-Value="countries" SearchFunc="@Search1"
+                         ResetValueOnEmptyText="@resetValueOnEmptyText"
+                         CoerceText="@coerceText" CoerceValue="@coerceValue" />
+
+            <MudAutocomplete T="string" Label="Provinces" @bind-Value="provinces" SearchFunc="@Search2"
+                         ResetValueOnEmptyText="@resetValueOnEmptyText"
+                         CoerceText="@coerceText" CoerceValue="@coerceValue" />
+
+            <MudAutocomplete T="string" Label="Districts" @bind-Value="districts" SearchFunc="@Search3"
+                         ResetValueOnEmptyText="@resetValueOnEmptyText"
+                         CoerceText="@coerceText" CoerceValue="@coerceValue" />
+            </MudForm>
+        </MudCardContent>
+        <MudCardActions>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!success)" Class="ml-auto">Save</MudButton>
+        </MudCardActions>
+    </MudCard>
+    
+    <MudPaper Class="pa-4 justify-center my-4 mud-text-align-center">
+        <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="@(()=>form.Reset())" Class="mx-2">Reset</MudButton>
+    </MudPaper>
+
+    <MudExpansionPanels>
+        <MudExpansionPanel Text="@($"Show Errors ({errors.Length})")">
+            @foreach (var error in errors)
+            {
+                <MudText Color="@Color.Error">@error</MudText>
+            }
+        </MudExpansionPanel>
+    </MudExpansionPanels>
+
+@code {
+    bool success;
+    string[] errors = { };
+    MudForm? form;
+    private bool resetValueOnEmptyText;
+    private bool coerceText;
+    private bool coerceValue;
+    private string? countries, provinces, districts;
+    private string[] countries_array =
+    {
+        "Zambia", "Malawi"
+    };
+    private string[] provinces_array =
+    {
+        "Copperbelt", "Lusaka"
+    };
+
+    private string[] districts_array =
+    {
+        "Copperbelt", "Lusaka"
+    };
+    private async Task<IEnumerable<string>> Search1(string value)
+    {
+        // In real life use an asynchronous function for fetching data from an api.
+        await Task.Delay(5);
+
+        // if text is null or empty, show complete list
+        if (string.IsNullOrEmpty(value))
+            return countries_array;
+        return countries_array
+        .Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+    }
+
+    private async Task<IEnumerable<string>> Search2(string value)
+    {
+        // In real life use an asynchronous function for fetching data from an api.
+        await Task.Delay(5);
+
+        // if text is null or empty, don't return values (drop-down will not open)
+        if (string.IsNullOrEmpty(value))
+            return new string[0];
+        return provinces_array.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+    }
+    
+    private async Task<IEnumerable<string>> Search3(string value)
+    {
+        // In real life use an asynchronous function for fetching data from an api.
+        await Task.Delay(5);
+
+        // if text is null or empty, don't return values (drop-down will not open)
+        if (string.IsNullOrEmpty(value))
+            return new string[0];
+        return districts_array.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+    }
+}
