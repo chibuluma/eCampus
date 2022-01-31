@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\owner\\.nuget\\packages\\": {}
+    "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
+      "projectUniqueName": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
       "projectName": "eCampus.COMMON",
-      "projectPath": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
-      "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.COMMON\\obj\\",
+      "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
+      "packagesPath": "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\EmmanuelBwalyaEMB\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
