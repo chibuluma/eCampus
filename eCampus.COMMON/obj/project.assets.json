@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
+      "projectUniqueName": "/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
       "projectName": "eCampus.COMMON",
-      "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
+      "projectPath": "/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
       "packagesPath": "/home/mathews/.nuget/packages/",
-      "outputPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/obj/",
+      "outputPath": "/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mathews/.nuget/NuGet/NuGet.Config"
