@@ -22,3 +22,15 @@
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/eCampus.COMMON.dll
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/ref/eCampus.COMMON.dll
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/eCampus.COMMON.pdb
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\bin\Debug\net6.0\eCampus.COMMON.deps.json
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\bin\Debug\net6.0\eCampus.COMMON.dll
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\bin\Debug\net6.0\ref\eCampus.COMMON.dll
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\bin\Debug\net6.0\eCampus.COMMON.pdb
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\obj\Debug\net6.0\eCampus.COMMON.csproj.AssemblyReference.cache
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\obj\Debug\net6.0\eCampus.COMMON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\obj\Debug\net6.0\eCampus.COMMON.AssemblyInfoInputs.cache
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\obj\Debug\net6.0\eCampus.COMMON.AssemblyInfo.cs
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\obj\Debug\net6.0\eCampus.COMMON.csproj.CoreCompileInputs.cache
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\obj\Debug\net6.0\eCampus.COMMON.dll
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\obj\Debug\net6.0\ref\eCampus.COMMON.dll
+C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.COMMON\obj\Debug\net6.0\eCampus.COMMON.pdb
