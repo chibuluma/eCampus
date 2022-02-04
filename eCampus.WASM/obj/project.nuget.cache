@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YPPaFr6aDCwtkUVKbvvi/Su3WHVk5dypNJKGlFTuX1Ht3WyoEOcZdkFGtqNqfFsvXtI2zu0NWtnI9b0izbx9Aw==",
+  "dgSpecHash": "mZDddkAyhk58OSlP9gGbGnb6ApetIQrcT4SoPa8vZjkm26rNMp6UJM28XTAeQh0oP5ZS+jUubesiU1XSJsL7tw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
+  "projectFilePath": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0\\microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",
     "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.0\\microsoft.aspnetcore.components.6.0.0.nupkg.sha512",

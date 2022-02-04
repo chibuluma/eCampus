@@ -11,11 +11,11 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = eCampus.WASM
 build_property.RootNamespace = eCampus.WASM
-build_property.ProjectDir = c:\Users\owner\Desktop\eCampus\eCampus.WASM\
+build_property.ProjectDir = C:\Users\owner\Desktop\eCampus\eCampus.WASM\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\owner\Desktop\eCampus\eCampus.WASM
+build_property.MSBuildProjectDirectory = C:\Users\owner\Desktop\eCampus\eCampus.WASM
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/owner/Desktop/eCampus/eCampus.WASM/App.razor]
@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/owner/Desktop/eCampus/eCampus.WASM/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owner/Desktop/eCampus/eCampus.WASM/Pages/Courses.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/owner/Desktop/eCampus/eCampus.WASM/Pages/FetchData.razor]
