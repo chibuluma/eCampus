@@ -19,6 +19,7 @@ namespace eCampus.WEBAPI.Controllers
             _context = context;
         }
         [HttpPost("create_user")]
+        
         public Task<OperationResult> PostUserItem(User user)
         {
             try
@@ -29,19 +30,19 @@ namespace eCampus.WEBAPI.Controllers
                 identityUser.Email = user.Email;
                 identityUser.PhoneNumber = user.PhoneNumber;
                 identityUser.PasswordHash = user.Password;
-
+_context.sp.SaveChanges();
                 var result = _context.Users.Add(identityUser);
                 var op = new OperationResult();
                 op.AddMessage("User created successfully!!");
                 op.Success  =true;
-                
+              // _context.sp.SaveChanges();
                 return Task.FromResult(op);
             }
             catch (System.Exception)
             {
+                   
                 throw;
             }
-
         }
     }
 }
