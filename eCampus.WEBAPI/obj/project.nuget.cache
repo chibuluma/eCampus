@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e5t9QNtbKTrUGblRNMELp/7U6BfFaf77tUkWx3Pj/gY5X4XE2m76+a9dW1QeoEAihoAPQQ7/y0g04jydussSJQ==",
+  "dgSpecHash": "hpYqklNFqVyL3NANFH/juvrZfEylAgxdEE3QXg2O57U5JONlFRtBHNV7WLIpW664Ch2NySDVqMmSQr5oOwjDqw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\eCampus.WEBAPI.csproj",
+  "projectFilePath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\eCampus.WEBAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",

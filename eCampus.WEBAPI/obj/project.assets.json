@@ -2206,11 +2206,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {
-              "projectPath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj"
+            "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {
+              "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj"
             },
-            "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj": {
-              "projectPath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj"
+            "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj": {
+              "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj"
             }
           }
         }

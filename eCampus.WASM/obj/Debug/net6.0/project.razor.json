@@ -239,6 +239,39 @@
         }
       },
       {
+        "HashCode": 1918800197,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.Pages.Courses",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Courses"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.Pages.Courses"
+        }
+      },
+      {
+        "HashCode": 1404170091,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.Pages.Courses",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "eCampus.WASM.Pages.Courses"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.Pages.Courses",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 859567516,
         "Kind": "Components.Component",
         "Name": "eCampus.WASM.Shared.SurveyPrompt",
@@ -74905,6 +74938,11 @@
     {
       "FilePath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WASM\\Pages\\Institutions.razor",
       "TargetPath": "Pages\\Institutions.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WASM\\Pages\\Courses.razor",
+      "TargetPath": "Pages\\Courses.razor",
       "FileKind": "component"
     }
   ],
