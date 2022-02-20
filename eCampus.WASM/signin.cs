@@ -2,7 +2,7 @@ using System;
 
 namespace eCampus.WASM
 {
-    public class signin
+    public class Signin
     {
 
         public string Username { get; set;}

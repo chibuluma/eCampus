@@ -13,30 +13,38 @@ namespace eCampus.WEBAPI.Controllers
     [Route("[Controller]")]
     public class AuthenticationRepositoryController : ControllerBase
     {
+        private readonly UserManager<IdentityUser> _userManager;
         private readonly eCampusContext _context;
-        public AuthenticationRepositoryController(eCampusContext context)
+        public AuthenticationRepositoryController(eCampusContext context, UserManager<IdentityUser> userManager ) 
         {
             _context = context;
+            _userManager = userManager;
         }
         [HttpPost("create_user")]
         
-        public Task<OperationResult> PostUserItem(User user)
+        public async Task<OperationResult> PostUserItem(User user)
         {
             try
             {
                 var identityUser = new IdentityUser();
                 
                 identityUser.Id = Guid.NewGuid().ToString();
+                identityUser.UserName = user.Username;
                 identityUser.Email = user.Email;
                 identityUser.PhoneNumber = user.PhoneNumber;
-                identityUser.PasswordHash = user.Password;
-_context.sp.SaveChanges();
-                var result = _context.Users.Add(identityUser);
+                var Tresult = await _userManager.CreateAsync(identityUser, user.Password);
+
                 var op = new OperationResult();
-                op.AddMessage("User created successfully!!");
-                op.Success  =true;
-              // _context.sp.SaveChanges();
-                return Task.FromResult(op);
+
+                if(Tresult.Succeeded){
+                    op.AddMessage("User created successfully!!");
+                    op.Success  =true;
+                }
+                else{
+                    op.AddMessage($"User created failed!! {Tresult}");
+                }
+               
+                return op;
             }
             catch (System.Exception)
             {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj": {}
+    "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj": {
+    "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
+        "projectUniqueName": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
         "projectName": "eCampus.WASM",
-        "projectPath": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
-        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\obj\\",
+        "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
+        "packagesPath": "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WASM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EmmanuelBwalyaEMB\\AppData\\Roaming\\NuGet\\NuGet.Config"

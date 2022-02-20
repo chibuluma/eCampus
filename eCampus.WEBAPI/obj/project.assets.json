@@ -2187,11 +2187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\eCampus.WEBAPI.csproj",
+      "projectUniqueName": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\eCampus.WEBAPI.csproj",
       "projectName": "eCampus.WEBAPI",
-      "projectPath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\eCampus.WEBAPI.csproj",
+      "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\eCampus.WEBAPI.csproj",
       "packagesPath": "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\obj\\",
+      "outputPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EmmanuelBwalyaEMB\\AppData\\Roaming\\NuGet\\NuGet.Config"

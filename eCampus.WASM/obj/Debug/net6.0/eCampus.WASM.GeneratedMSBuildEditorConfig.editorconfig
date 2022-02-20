@@ -11,57 +11,57 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = eCampus.WASM
 build_property.RootNamespace = eCampus.WASM
-build_property.ProjectDir = c:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.WASM\
+build_property.ProjectDir = C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.WASM\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.WASM
+build_property.MSBuildProjectDirectory = C:\Users\EmmanuelBwalyaEMB\Documents\GitHub\eCampus\eCampus.WASM
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/App.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Counter.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Courses.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Courses.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/FetchData.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Index.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Institutions.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Institutions.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdGl0dXRpb25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Signin.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Signin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbmluLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Signup.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Pages/Signup.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Shared/SurveyPrompt.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/_Imports.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Shared/MainLayout.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-eoq27fyxlf
 
-[c:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Shared/NavMenu.razor]
+[C:/Users/EmmanuelBwalyaEMB/Documents/GitHub/eCampus/eCampus.WASM/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-fi26be18e9

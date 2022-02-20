@@ -11,6 +11,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Identity;
+//using Microsoft.AspNetCore.IdentityRole;
+
 
 namespace eCampus.WEBAPI
 {
@@ -29,10 +32,18 @@ namespace eCampus.WEBAPI
             services.AddDbContext<eCampusContext>(opt=> 
                     opt.UseSqlServer(Configuration.GetConnectionString("eCampusDatabase")));
             services.AddControllers();
+            //services.AddIdentity<IdentityUser,IdentityRole>();
             services.AddScoped<IeCampusContext, eCampusContext>();
             services.AddScoped<IOperationResult, OperationResult>();
             services.AddScoped<ISchoolRepository, SchoolRepository>();
             services.AddScoped<SchoolService>();
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<eCampusContext>();
+
+            // services.AddIdentity<IdentityUser,IdentityRole>(options =>
+            // {
+            //     options.User.RequireUniqueEmail = false;
+            // });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "eCampus.WEBAPI", Version = "v1" });

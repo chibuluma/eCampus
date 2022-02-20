@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/eCampus.Tests.csproj": {}
+    "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.Tests\\eCampus.Tests.csproj": {}
   },
   "projects": {
-    "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
+    "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
+        "projectUniqueName": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
         "projectName": "eCampus.COMMON",
-        "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
-        "packagesPath": "/home/mathews/.nuget/packages/",
-        "outputPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/obj/",
+        "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
+        "packagesPath": "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mathews/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\EmmanuelBwalyaEMB\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,21 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/eCampus.DAL.csproj": {
+    "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/eCampus.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj",
         "projectName": "eCampus.DAL",
-        "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/eCampus.DAL.csproj",
-        "packagesPath": "/home/mathews/.nuget/packages/",
-        "outputPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/obj/",
+        "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj",
+        "packagesPath": "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mathews/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\EmmanuelBwalyaEMB\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -78,8 +78,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
-                "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj"
+              "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {
+                "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj"
               }
             }
           }
@@ -124,21 +124,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/eCampus.Tests.csproj": {
+    "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.Tests\\eCampus.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/eCampus.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.Tests\\eCampus.Tests.csproj",
         "projectName": "eCampus.Tests",
-        "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/eCampus.Tests.csproj",
-        "packagesPath": "/home/mathews/.nuget/packages/",
-        "outputPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.Tests/obj/",
+        "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.Tests\\eCampus.Tests.csproj",
+        "packagesPath": "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mathews/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\EmmanuelBwalyaEMB\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -150,8 +150,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/eCampus.DAL.csproj": {
-                "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.DAL/eCampus.DAL.csproj"
+              "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj": {
+                "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj"
               }
             }
           }
@@ -202,7 +202,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
