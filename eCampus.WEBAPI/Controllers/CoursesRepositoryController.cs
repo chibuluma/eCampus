@@ -21,7 +21,6 @@ namespace eCampus.WEBAPI.Controllers
         public async Task<IActionResult> GetAllAsync()
         {
             var allCourses = await _courseService.GetAllObjects();
-
             return Ok(allCourses);
         }
 

@@ -11,45 +11,45 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = eCampus.WASM
 build_property.RootNamespace = eCampus.WASM
-build_property.ProjectDir = /home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/
+build_property.ProjectDir = /home/mathews/Documents/Projects/eCampus/eCampus.WASM/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM
+build_property.MSBuildProjectDirectory = /home/mathews/Documents/Projects/eCampus/eCampus.WASM
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/App.razor]
+[/home/mathews/Documents/Projects/eCampus/eCampus.WASM/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Pages/Counter.razor]
+[/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Pages/FetchData.razor]
+[/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Pages/Index.razor]
+[/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Pages/Institutions.razor]
+[/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Pages/Institutions.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5zdGl0dXRpb25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Shared/SurveyPrompt.razor]
+[/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/_Imports.razor]
+[/home/mathews/Documents/Projects/eCampus/eCampus.WASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Shared/MainLayout.razor]
+[/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xogsosxpme
 
-[/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Shared/NavMenu.razor]
+[/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-cozbj6l33y

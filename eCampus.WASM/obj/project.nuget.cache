@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ONqEA0ZKmC6RplTVreWWage6wBjQaaED2C4gjj9cL4PwwMoVAx3r3x93JwDDJkJVw8rnh98gNOzYygjRjyK80w==",
+  "dgSpecHash": "GMt7ExwrvMxYW8GVrfH7SeTdSFEFT4ihNjujrsISF/UpOnOy95C5oEqg/S7fH9bHzafQdcpwO70MIgIOKUCD0A==",
   "success": true,
-  "projectFilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
+  "projectFilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
   "expectedPackageFiles": [
     "/home/mathews/.nuget/packages/microsoft.aspnetcore.authorization/6.0.0/microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",
     "/home/mathews/.nuget/packages/microsoft.aspnetcore.components/6.0.0/microsoft.aspnetcore.components.6.0.0.nupkg.sha512",
@@ -34,7 +34,7 @@
     "/home/mathews/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/mathews/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/home/mathews/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
-    "/home/mathews/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.1/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.1.nupkg.sha512"
+    "/home/mathews/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.2/microsoft.netcore.app.runtime.mono.browser-wasm.6.0.2.nupkg.sha512"
   ],
   "logs": []
 }

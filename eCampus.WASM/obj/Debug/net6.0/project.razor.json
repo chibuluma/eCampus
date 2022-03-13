@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
+  "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "6.0",
@@ -74787,48 +74787,48 @@
   "RootNamespace": "eCampus.WASM",
   "Documents": [
     {
-      "FilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Pages/Institutions.razor",
-      "TargetPath": "Pages\\Institutions.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Shared/MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Pages/Index.razor",
+      "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/Pages/Counter.razor",
+      "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Pages/Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Pages/Institutions.razor",
+      "TargetPath": "Pages\\Institutions.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Pages/FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Shared/NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     }
   ],

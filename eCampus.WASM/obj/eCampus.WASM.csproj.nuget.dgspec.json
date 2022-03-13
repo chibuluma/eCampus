@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj": {}
+    "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/eCampus.WASM.csproj": {}
   },
   "projects": {
-    "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj": {
+    "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/eCampus.WASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
+        "projectUniqueName": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
         "projectName": "eCampus.WASM",
-        "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
+        "projectPath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
         "packagesPath": "/home/mathews/.nuget/packages/",
-        "outputPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/obj/",
+        "outputPath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mathews/.nuget/NuGet/NuGet.Config"
@@ -65,7 +65,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.1, 6.0.1]"
+              "version": "[6.0.2, 6.0.2]"
             }
           ],
           "frameworkReferences": {
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
