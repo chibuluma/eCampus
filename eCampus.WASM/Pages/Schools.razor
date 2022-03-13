@@ -1,0 +1,44 @@
+@page "/schools"
+@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Threading.Tasks
+@inject HttpClient httpClient
+
+<h3>Schools</h3>
+
+@if (schools == null)
+{
+    <p>No Todo Items found.</p>
+}
+else
+{
+    <table class="table table-striped">
+    <th>Code</th>
+    <th>Description</th>
+    <tbody>
+        @foreach (var item in schools)
+            {
+                <tr>
+                    <td>@item.SchoolCode</td>
+                    <td>@item.SchoolDescription</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+}
+
+@code {
+
+    School[]? schools;
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadSchools();
+    }
+
+    async Task LoadSchools()
+    {
+        schools = await httpClient.GetFromJsonAsync<School[]>("https://localhost:5001/api/SchoolsRepository/get_all_schools");
+    }
+}

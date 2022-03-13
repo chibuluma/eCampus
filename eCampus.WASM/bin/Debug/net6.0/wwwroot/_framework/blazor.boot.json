@@ -197,13 +197,15 @@
       "mscorlib.dll": "sha256-c1dVVfosFaf5aiS3brr2amBi1Ue0kg6mqECzmCbGyfA=",
       "netstandard.dll": "sha256-+9Yr\/gSP3tCZAMbOdAcGhHGuMcyg\/AaxVKtt3tGsvao=",
       "System.Private.CoreLib.dll": "sha256-SnxOe5QK250duVAQOw0iWr1sODhUuVEUykExQyQ\/WSk=",
-      "eCampus.WASM.dll": "sha256-VXdWMNdCObRS7cB427vRMzufacJVxSVpm2skgRdDjMg="
+      "eCampus.COMMON.dll": "sha256-xZAQupYmKZlnVVQxHpTMH0hmY6i7cuGozNwperNcygg=",
+      "eCampus.WASM.dll": "sha256-uidmJlnRV+TJK4IJdtOYaTvcQU46FQjOKcjT\/drUEog="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "eCampus.WASM.pdb": "sha256-rulQPezyvDaEeeJ+8wCPgYQ5tniZDu7cpcRc6fbKPAw="
+      "eCampus.COMMON.pdb": "sha256-+VSLj9pURoFZy3SxNIlqiKJDMDratFdiqtzgpd8zCJw=",
+      "eCampus.WASM.pdb": "sha256-NlRnOLqpz9jHZnNSAEj7+anhFN6YAagLEFXsRpNOXto="
     },
     "runtime": {
       "dotnet.6.0.2.w3sks1rv34.js": "sha256-wbTVn69TU0+WI83iB+kky8tf\/BjZdYJeM0rUP96ur\/c=",

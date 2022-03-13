@@ -817,9 +817,15 @@
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/GFwOa1O+.gz
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/TlLOmu04.gz
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/DqjpSxJa.gz
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/dotnet.6.0.2.w3sks1rv34.js
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/dotnet.timezones.blat
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/dotnet.wasm
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.COMMON.dll
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.COMMON.pdb
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.WASM.dll
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.WASM.pdb
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/icudt_CJK.dat
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/icudt_EFIGS.dat
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/icudt_no_CJK.dat
@@ -1014,10 +1020,6 @@
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XPath.dll
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XPath.XDocument.dll
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/WindowsBase.dll
-/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json
-/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/dotnet.6.0.2.w3sks1rv34.js
-/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.WASM.dll
-/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.WASM.pdb
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Net.Quic.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Cng.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Options.dll.gz
@@ -1128,6 +1130,7 @@
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Text.RegularExpressions.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Drawing.Primitives.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.dll.gz
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.COMMON.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Net.Sockets.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.EventBasedAsync.dll.gz
@@ -1176,6 +1179,7 @@
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.WASM.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Metadata.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Transactions.Local.dll.gz
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.COMMON.pdb.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Xml.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encoding.CodePages.dll.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Emit.dll.gz
@@ -1418,6 +1422,8 @@
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/icudt_CJK.dat
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/icudt_EFIGS.dat
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/icudt_no_CJK.dat
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/eCampus.COMMON.dll
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/eCampus.COMMON.pdb
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/eCampus.WASM.csproj.AssemblyReference.cache
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/eCampus.WASM.GeneratedMSBuildEditorConfig.editorconfig
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/eCampus.WASM.AssemblyInfoInputs.cache
@@ -1621,6 +1627,8 @@
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/LpJinTLp.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/MhpnQ7sI.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/7FR7eBFB.gz
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/l1a0W21U.gz
+/home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/txi5bDVh.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/TGfv43Sz.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/3tpZkHcG.gz
 /home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/7uDoYkJB.gz

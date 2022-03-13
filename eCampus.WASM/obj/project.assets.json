@@ -409,6 +409,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "eCampus.COMMON/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/eCampus.COMMON.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eCampus.COMMON.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -812,6 +822,16 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "eCampus.COMMON/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/eCampus.COMMON.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eCampus.COMMON.dll": {}
         }
       }
     }
@@ -1596,13 +1616,19 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "eCampus.COMMON/1.0.0": {
+      "type": "project",
+      "path": "../eCampus.COMMON/eCampus.COMMON.csproj",
+      "msbuildProject": "../eCampus.COMMON/eCampus.COMMON.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.0",
-      "MudBlazor >= 6.0.2"
+      "MudBlazor >= 6.0.2",
+      "eCampus.COMMON >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1629,7 +1655,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
+              "projectPath": "/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

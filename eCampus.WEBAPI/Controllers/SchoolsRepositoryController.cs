@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace eCampus.WEBAPI.Controllers
 {
     [ApiController]
-    [Route("[Controller]")]
+    [Route("api/[Controller]")]
     public class SchoolsRepositoryController : ControllerBase
     {
         private readonly SchoolService _schoolService;
@@ -42,7 +42,7 @@ namespace eCampus.WEBAPI.Controllers
         }
         
         [HttpPost("post_school")]
-        [Authorize]
+        //[Authorize]
         public Task<IOperationResult> PostSchoolItem(School school){
             try
             {

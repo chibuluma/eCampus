@@ -35,7 +35,6 @@
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.DAL.deps.json
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.DAL.runtimeconfig.json
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.DAL.dll
-/home/mathews/Documents/Projects/eCampus/eCampus.DAL/bin/Debug/net6.0/ref/eCampus.DAL.dll
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.DAL.pdb
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.COMMON.dll
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/bin/Debug/net6.0/eCampus.COMMON.pdb
@@ -46,6 +45,7 @@
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.csproj.CoreCompileInputs.cache
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.csproj.CopyComplete
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.dll
-/home/mathews/Documents/Projects/eCampus/eCampus.DAL/obj/Debug/net6.0/ref/eCampus.DAL.dll
+/home/mathews/Documents/Projects/eCampus/eCampus.DAL/obj/Debug/net6.0/refint/eCampus.DAL.dll
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.pdb
 /home/mathews/Documents/Projects/eCampus/eCampus.DAL/obj/Debug/net6.0/eCampus.DAL.genruntimeconfig.cache
+/home/mathews/Documents/Projects/eCampus/eCampus.DAL/obj/Debug/net6.0/ref/eCampus.DAL.dll

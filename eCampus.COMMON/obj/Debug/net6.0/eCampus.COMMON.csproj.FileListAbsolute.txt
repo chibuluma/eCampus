@@ -24,7 +24,6 @@
 /home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/eCampus.COMMON.pdb
 /home/mathews/Documents/Projects/eCampus/eCampus.COMMON/bin/Debug/net6.0/eCampus.COMMON.deps.json
 /home/mathews/Documents/Projects/eCampus/eCampus.COMMON/bin/Debug/net6.0/eCampus.COMMON.dll
-/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/bin/Debug/net6.0/ref/eCampus.COMMON.dll
 /home/mathews/Documents/Projects/eCampus/eCampus.COMMON/bin/Debug/net6.0/eCampus.COMMON.pdb
 /home/mathews/Documents/Projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/eCampus.COMMON.csproj.AssemblyReference.cache
 /home/mathews/Documents/Projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/eCampus.COMMON.GeneratedMSBuildEditorConfig.editorconfig
@@ -32,5 +31,6 @@
 /home/mathews/Documents/Projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/eCampus.COMMON.AssemblyInfo.cs
 /home/mathews/Documents/Projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/eCampus.COMMON.csproj.CoreCompileInputs.cache
 /home/mathews/Documents/Projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/eCampus.COMMON.dll
-/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/ref/eCampus.COMMON.dll
+/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/refint/eCampus.COMMON.dll
 /home/mathews/Documents/Projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/eCampus.COMMON.pdb
+/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/obj/Debug/net6.0/ref/eCampus.COMMON.dll

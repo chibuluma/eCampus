@@ -8,7 +8,7 @@ using   System.Linq;
 
 namespace eCampus.DAL.Repositories
 {
-    public class SchoolRepository : GenericRepository<School>, ISchoolRepository
+    public class SchoolRepository : GenericRepository<eCampus.DAL.Models.School>, ISchoolRepository
     {
         private readonly IeCampusContext _context;
         public SchoolRepository(IeCampusContext context, IOperationResult logResult)

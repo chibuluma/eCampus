@@ -29,18 +29,18 @@ namespace eCampus.DAL.Services
             return await _schoolRepository.GetAllObjects();
         }
 
-        public async Task<School> GetObjectById(Expression<Func<School, bool>> filter)
+        public async Task<School> GetObjectById(Expression<Func<eCampus.DAL.Models.School, bool>> filter)
         {
             return await _schoolRepository.GetObjectById(filter);
         }
 
-        public IOperationResult RemoveObjectById(Expression<Func<School, bool>> s)
+        public IOperationResult RemoveObjectById(Expression<Func<eCampus.DAL.Models.School, bool>> s)
         {
             _schoolRepository.RemoveObjectById(s);
             return _operationResult;
         }
 
-        public IOperationResult Update(School school, Expression<Func<School, bool>> filter)
+        public IOperationResult Update(School school, Expression<Func<eCampus.DAL.Models.School, bool>> filter)
         {
             _schoolRepository.Update(school, filter);
             return _operationResult;

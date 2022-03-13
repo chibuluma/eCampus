@@ -1,3 +1,5 @@
+using System;
+using System.Net.Http;
 using eCampus.COMMON;
 using eCampus.DAL.Interfaces;
 using eCampus.DAL.Models;
@@ -6,11 +8,11 @@ using eCampus.DAL.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Net.Http.Headers;
 using Microsoft.OpenApi.Models;
 
 namespace eCampus.WEBAPI
@@ -27,13 +29,14 @@ namespace eCampus.WEBAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<eCampusContext>(opt=> 
+            services.AddDbContext<eCampusContext>(opt =>
                     opt.UseSqlServer(Configuration.GetConnectionString("eCampusDatabase")));
             services.AddControllers();
             services.AddScoped<IeCampusContext, eCampusContext>();
             services.AddScoped<IOperationResult, OperationResult>();
             services.AddScoped<ISchoolRepository, SchoolRepository>();
             services.AddScoped<SchoolService>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "eCampus.WEBAPI", Version = "v1" });
@@ -58,7 +61,7 @@ namespace eCampus.WEBAPI
                     { securitySchema, new[] { "Bearer" } }
                 });
             });
-            services.AddIdentity<IdentityUser, IdentityRole>();
+            //services.AddIdentity<IdentityUser, IdentityRole>();
 
             // 1. Add Authentication Services
             services.AddAuthentication(options =>
@@ -67,8 +70,8 @@ namespace eCampus.WEBAPI
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             }).AddJwtBearer(options =>
             {
-                options.Authority =  $"https://{Configuration["Auth0:Domain"]}/";
-                options.Audience =   Configuration["Auth0:Audience"];
+                options.Authority = $"https://{Configuration["Auth0:Domain"]}/";
+                options.Audience = Configuration["Auth0:Audience"];
             });
         }
 
@@ -89,7 +92,11 @@ namespace eCampus.WEBAPI
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseCors(policy =>
+                policy.WithOrigins("http://localhost:5200", "https://localhost:7017", "https://localhost:8000")
+                .AllowAnyMethod()
+                .WithHeaders(HeaderNames.ContentType, HeaderNames.Authorization, "x-custom-header")
+                .AllowCredentials());
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

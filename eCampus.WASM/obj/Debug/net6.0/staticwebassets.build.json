@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yd9x5TEwNtGkC+9s8SJMdLeaUVAhCjroesNpDR16CwE=",
+  "Hash": "TzODs7NSa+YvXNE/q1NJpSDpepAqFAd6cC8gfglhWXc=",
   "Source": "eCampus.WASM",
   "BasePath": "/",
   "Mode": "Root",
@@ -134,6 +134,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/mathews/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.2/runtimes/browser-wasm/native/dotnet.wasm"
+    },
+    {
+      "Identity": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.COMMON.dll",
+      "SourceId": "eCampus.WASM",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/eCampus.COMMON.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/bin/Debug/net6.0/eCampus.COMMON.dll"
+    },
+    {
+      "Identity": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.COMMON.pdb",
+      "SourceId": "eCampus.WASM",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/eCampus.COMMON.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/mathews/Documents/Projects/eCampus/eCampus.COMMON/bin/Debug/net6.0/eCampus.COMMON.pdb"
     },
     {
       "Identity": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.WASM.dll",
@@ -5338,6 +5372,23 @@
       "OriginalItemSpec": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.dll"
     },
     {
+      "Identity": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/l1a0W21U.gz",
+      "SourceId": "eCampus.WASM",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/eCampus.COMMON.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.COMMON.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.COMMON.dll"
+    },
+    {
       "Identity": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/l4R+gVep.gz",
       "SourceId": "eCampus.WASM",
       "SourceType": "Computed",
@@ -6152,6 +6203,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/System.Transactions.Local.dll"
+    },
+    {
+      "Identity": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/txi5bDVh.gz",
+      "SourceId": "eCampus.WASM",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/eCampus.COMMON.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.COMMON.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/bin/Debug/net6.0/wwwroot/_framework/eCampus.COMMON.pdb"
     },
     {
       "Identity": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/obj/Debug/net6.0/build-gz/UcKtlBeB.gz",

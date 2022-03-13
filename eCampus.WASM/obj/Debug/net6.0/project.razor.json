@@ -173,6 +173,39 @@
         }
       },
       {
+        "HashCode": 2041311415,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.Pages.Schools",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Schools"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.Pages.Schools"
+        }
+      },
+      {
+        "HashCode": 203821212,
+        "Kind": "Components.Component",
+        "Name": "eCampus.WASM.Pages.Schools",
+        "AssemblyName": "eCampus.WASM",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "eCampus.WASM.Pages.Schools"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "eCampus.WASM.Pages.Schools",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -458473543,
         "Kind": "Components.Component",
         "Name": "eCampus.WASM.Shared.SurveyPrompt",
@@ -74809,6 +74842,11 @@
     {
       "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Shared/SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/mathews/Documents/Projects/eCampus/eCampus.WASM/Pages/Schools.razor",
+      "TargetPath": "Pages\\Schools.razor",
       "FileKind": "component"
     },
     {
