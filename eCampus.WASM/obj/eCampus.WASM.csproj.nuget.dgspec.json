@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj": {}
+    "c:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj": {}
   },
   "projects": {
-    "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj": {
+    "c:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
+        "projectUniqueName": "c:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
         "projectName": "eCampus.WASM",
-        "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/eCampus.WASM.csproj",
-        "packagesPath": "/home/mathews/.nuget/packages/",
-        "outputPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.WASM/obj/",
+        "projectPath": "c:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mathews/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

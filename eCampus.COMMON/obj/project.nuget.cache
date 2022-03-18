@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HnEsLQpoIuiIVQw3YgQr/f/ByJ6Hlzsc3j8vzMvIalf/+JSiBhD8YESTCjELb/4IM+COGbByQlpPTSJehVcIQg==",
+  "dgSpecHash": "HVXNowaX44a6uNGdb8Krr1C/BygVoDKYsBxIMxdatPHPspSvT4uvuS8QwRlv2cdyBq7nBXjjx7qa9n53Ul9YJg==",
   "success": true,
-  "projectFilePath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
+  "projectFilePath": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,17 @@
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\bin\MCD\Debug\net6.0\eCampus.DAL.deps.json
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\bin\MCD\Debug\net6.0\eCampus.DAL.runtimeconfig.json
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\bin\MCD\Debug\net6.0\eCampus.DAL.dll
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\bin\MCD\Debug\net6.0\ref\eCampus.DAL.dll
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\bin\MCD\Debug\net6.0\eCampus.DAL.pdb
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\bin\MCD\Debug\net6.0\eCampus.COMMON.dll
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\bin\MCD\Debug\net6.0\eCampus.COMMON.pdb
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\obj\MCD\Debug\net6.0\eCampus.DAL.csproj.AssemblyReference.cache
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\obj\MCD\Debug\net6.0\eCampus.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\obj\MCD\Debug\net6.0\eCampus.DAL.AssemblyInfoInputs.cache
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\obj\MCD\Debug\net6.0\eCampus.DAL.AssemblyInfo.cs
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\obj\MCD\Debug\net6.0\eCampus.DAL.csproj.CoreCompileInputs.cache
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\obj\MCD\Debug\net6.0\eCampus.DAL.csproj.CopyComplete
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\obj\MCD\Debug\net6.0\eCampus.DAL.dll
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\obj\MCD\Debug\net6.0\ref\eCampus.DAL.dll
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\obj\MCD\Debug\net6.0\eCampus.DAL.pdb
+C:\Users\owner\Desktop\eCampus\eCampus.DAL\obj\MCD\Debug\net6.0\eCampus.DAL.genruntimeconfig.cache

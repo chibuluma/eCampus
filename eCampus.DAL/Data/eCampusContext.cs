@@ -31,7 +31,7 @@ namespace eCampus.DAL.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=localhost;Database=eCampus;User Id=sa;Password='MVemjsunp1;';");
+                optionsBuilder.UseSqlServer("Server=localhost;Database=eCampus;Integrated Security=True;");
             }
         }
 

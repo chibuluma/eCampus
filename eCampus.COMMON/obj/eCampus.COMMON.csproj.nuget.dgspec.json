@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {}
+    "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {}
   },
   "projects": {
-    "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj": {
+    "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
         "projectName": "eCampus.COMMON",
-        "projectPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/eCampus.COMMON.csproj",
-        "packagesPath": "/home/mathews/.nuget/packages/",
-        "outputPath": "/home/mathews/Documents/dotnet_projects/eCampus/eCampus.COMMON/obj/",
+        "projectPath": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.COMMON\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mathews/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
