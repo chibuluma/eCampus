@@ -38,6 +38,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdGl0dXRpb25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/owner/Desktop/eCampus/eCampus.WASM/Pages/Signin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbmluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owner/Desktop/eCampus/eCampus.WASM/Pages/Signup.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/owner/Desktop/eCampus/eCampus.WASM/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
