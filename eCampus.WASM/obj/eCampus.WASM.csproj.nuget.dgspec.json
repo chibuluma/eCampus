@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj": {}
+    "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj": {}
   },
   "projects": {
-    "c:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj": {
+    "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
         "projectName": "eCampus.WASM",
-        "projectPath": "c:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
+        "projectPath": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\eCampus.WASM.csproj",
         "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\obj\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\eCampus\\eCampus.WASM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
