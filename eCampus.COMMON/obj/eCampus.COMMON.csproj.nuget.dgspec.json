@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {}
+    "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {
+    "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
+        "projectUniqueName": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
         "projectName": "eCampus.COMMON",
-        "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
+        "projectPath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj",
         "packagesPath": "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\obj\\",
+        "outputPath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EmmanuelBwalyaEMB\\AppData\\Roaming\\NuGet\\NuGet.Config"

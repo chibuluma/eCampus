@@ -2187,11 +2187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\eCampus.WEBAPI.csproj",
+      "projectUniqueName": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\eCampus.WEBAPI.csproj",
       "projectName": "eCampus.WEBAPI",
-      "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\eCampus.WEBAPI.csproj",
+      "projectPath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\eCampus.WEBAPI.csproj",
       "packagesPath": "C:\\Users\\EmmanuelBwalyaEMB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\obj\\",
+      "outputPath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.WEBAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EmmanuelBwalyaEMB\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2206,8 +2206,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {
-              "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj"
+            "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj": {
+              "projectPath": "c:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.COMMON\\eCampus.COMMON.csproj"
             },
             "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj": {
               "projectPath": "C:\\Users\\EmmanuelBwalyaEMB\\Documents\\GitHub\\eCampus\\eCampus.DAL\\eCampus.DAL.csproj"

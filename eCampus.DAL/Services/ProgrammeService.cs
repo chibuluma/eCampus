@@ -8,41 +8,41 @@ using eCampus.DAL.Models;
 
 namespace eCampus.DAL.Services
 {
-    public class ProgrammeService : IProgrammeRepository
+    public class DepartmentService : IDepartmentRepository
     {
-        private readonly IProgrammeRepository _programmeRepository;
+        private readonly IDepartmentRepository _DepartmentRepository;
         private readonly IOperationResult _operationResult;
-        public ProgrammeService(IProgrammeRepository programmeRepository, IOperationResult operationResult)
+        public DepartmentService(IDepartmentRepository DepartmentRepository, IOperationResult operationResult)
         {
-            _programmeRepository = programmeRepository;
+            _DepartmentRepository = DepartmentRepository;
             _operationResult = operationResult;
         }
 
-        public IOperationResult Add(Programme programme)
+        public IOperationResult Add (Department Department)
         {
-            _programmeRepository.Add(programme);
+            _DepartmentRepository.Add(Department);
             return _operationResult;
         }
 
-        public Task<IList<Programme>> GetAllObjects()
+        public Task<IList<Department>> GetAllObjects()
         {
-            return _programmeRepository.GetAllObjects();
+            return _DepartmentRepository.GetAllObjects();
         }
 
-        public Task<Programme> GetObjectById(Expression<Func<Programme, bool>> filter)
+        public Task<Department> GetObjectById(Expression<Func<Department, bool>> filter)
         {
-            return _programmeRepository.GetObjectById(filter);
+            return _DepartmentRepository.GetObjectById(filter);
         }
 
-        public IOperationResult RemoveObjectById(Expression<Func<Programme, bool>> s)
+        public IOperationResult RemoveObjectById(Expression<Func<Department, bool>> s)
         {
-            _programmeRepository.RemoveObjectById(s);
+            _DepartmentRepository.RemoveObjectById(s);
             return _operationResult;
         }
 
-        public IOperationResult Update(Programme programme, Expression<Func<Programme, bool>> s)
+        public IOperationResult Update(Department Department, Expression<Func<Department, bool>> s)
         {
-            _programmeRepository.Update(programme, s);
+            _DepartmentRepository.Update(Department, s);
             return _operationResult;
         }
     }
