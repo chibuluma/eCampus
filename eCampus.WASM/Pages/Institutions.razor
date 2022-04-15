@@ -1,4 +1,4 @@
-@page "/Institutions"
+@page "/institutions"
 @inject HttpClient Http
 
 @using System.Text.RegularExpressions
@@ -8,7 +8,6 @@
     <MudCard>
         <MudCardContent>
             <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
-                <MudTextField T="string" Label="Institution" Required="true" RequiredError="Institution name is required!"/>
             
             <MudAutocomplete T="string" Label="Countries" @bind-Value="countries" SearchFunc="@Search1"
                          ResetValueOnEmptyText="@resetValueOnEmptyText"
